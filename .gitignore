@@ -1,0 +1,4 @@
+node_modules
+./server/node_modules
+./server/src/models/private_key.txt
+./client/node_modules
