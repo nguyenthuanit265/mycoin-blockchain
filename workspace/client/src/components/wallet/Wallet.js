@@ -31,16 +31,6 @@ const Wallet = () => {
   };
   return (
     <div className="w-full h-screen mt-3 flex flex-col items-center ">
-      <section className="flex w-1/2 justify-between items-center mb-3">
-        <div className="flex flex-col w-1/3">
-          <div className="text-green-800 font-bold text-4xl mb-3">PrimeWalker Coin</div>
-          <p className="text-gray-800 text-base">
-            PrimeWalkerCoin Wallet (our friends call us PWW) is a free, client-side interface helping you interact with the Ethereum blockchain. Our
-            easy-to-use, open-source platform allows you to generate wallets, interact with smart contracts, and so much more.
-          </p>
-        </div>
-        <img className="w-2/3" src={BigManLogo} alt="big man" />
-      </section>
       <section className="flex justify-center items-center">
         <div
           className="bg-blue-500 w-1/4 h-64 grid grid-cols-3 gap-2 p-10 rounded mr-5 cursor-pointer transition ease-in-out transform hover:-translate-y-2"
